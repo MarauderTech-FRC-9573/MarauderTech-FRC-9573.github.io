@@ -1,0 +1,59 @@
+.main {
+    margin: 3%;
+}
+
+.season {
+    background-color: #0174BE;
+}
+
+.season-content{
+    margin: 0 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    color: white;
+}
+
+.photo {
+    width: 500px;  /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    object-fit: cover; /* This will ensure that the aspect ratio of the images is preserved */
+}
+
+.involved {
+    background-color: #0C356A;
+}
+
+.involved-content{
+    margin: 0 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    color: white;
+}
+
+
+
+.fa-brands, .fa-solid {
+    color: black;
+    font-size: 2.5em;
+    margin: 10px;;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    color: #0C356A;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #FFFFFF !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
