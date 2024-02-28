@@ -14,10 +14,13 @@
     color: white;
 }
 
-.photo {
-    width: 500px;  /* Adjust as needed */
-    height: 400px; /* Adjust as needed */
-    object-fit: cover; /* This will ensure that the aspect ratio of the images is preserved */
+.announcement {
+    text-align: center;  
+    margin: 2%;
+}
+
+.carousel {
+ width: 60%;
 }
 
 .involved {
@@ -30,6 +33,10 @@
     padding-bottom: 5%;
     
     color: white;
+}
+
+.buttons {
+    margin: 3% 0%;
 }
 
 
