@@ -64,3 +64,50 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .main {
+        margin: 1%;
+    }
+    .carousel {
+       width: 100%;
+    }
+
+    .announcement {
+        display: none;
+    }
+
+    .main {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        
+    }
+ }
+
+ @media screen and (min-width: 1000px) {
+    .main {
+        margin: 2%;
+    }
+    
+    .season-content {
+        margin: 0 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+        color: white;    
+    }
+
+    .involved-content {
+        margin: 0 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+        color: white;    
+    }
+
+    .buttons {
+        margin: 1% 0%;
+    }    
+
+ }
