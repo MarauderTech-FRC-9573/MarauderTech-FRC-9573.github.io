@@ -92,6 +92,10 @@ font-family: Inter !important;
         margin: auto;
         
     }
+    .sponsor-photo {
+        width: 50%;
+     }
+
  }
 
  @media screen and (min-width: 1000px) {
@@ -107,6 +111,15 @@ font-family: Inter !important;
         color: white;    
     }
 
+    .sponsor-content {
+        margin: 0 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+        color: white;    
+
+    }
+
     .involved-content {
         margin: 0 2%;
         padding-top: 2%;
@@ -119,4 +132,22 @@ font-family: Inter !important;
         margin: 1% 0%;
     }    
 
+
+ }
+
+ .sponsors {
+    background-color: #0174BE;
+
+ }
+
+ .sponsors-content {
+    margin: 0 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    color: white;
+ }
+
+ .sponsor-photo {
+    width: 20%;
  }
