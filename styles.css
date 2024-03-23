@@ -43,7 +43,13 @@ font-family: Inter !important;
     margin: 3% 0%;
 }
 
+h1 a {
+    color: white; 
+}
 
+h1 a:hover {
+    color: white;
+}
 
 
 .fa-brands, .fa-solid {
