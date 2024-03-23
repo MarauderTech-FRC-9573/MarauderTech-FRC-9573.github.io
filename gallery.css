@@ -1,0 +1,23 @@
+.gallery-img {
+    width: 100%;
+    margin: 3%;
+}
+
+.row { 
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-img {
+        width: 100%;
+    }
+
+    .col {
+
+    }
+
+    .row {
+
+    }
+    
+}
