@@ -6,8 +6,13 @@ font-family: Inter !important;
     margin: 3%;
 }
 
+nav a {
+    color: black;
+}
+
 .season {
-    background-color: #0174BE;
+    background-color: #ACE2E1;
+    color: black;
 }
 
 .season-content{
@@ -15,7 +20,11 @@ font-family: Inter !important;
     padding-top: 5%;
     padding-bottom: 5%;
     
-    color: white;
+    color: black;
+}
+
+.season-content a {
+    color: black;
 }
 
 .announcement {
@@ -28,7 +37,7 @@ font-family: Inter !important;
 }
 
 .involved {
-    background-color: #0C356A;
+    background-color: #008DDA;
 }
 
 .involved-content{
@@ -43,6 +52,13 @@ font-family: Inter !important;
     margin: 3% 0%;
 }
 
+h1 a {
+    color: white; 
+}
+
+h1 a:hover {
+    color: white;
+}
 
 
 .fa-brands, .fa-solid {
@@ -70,7 +86,7 @@ font-family: Inter !important;
 }
 
 .sponsors {
-    background-color: #0174BE;
+    background-color: #ACE2E1;
 
  }
 
@@ -79,7 +95,7 @@ font-family: Inter !important;
     padding-top: 2%;
     padding-bottom: 2%;
     
-    color: white;
+    color: black;
  }
 
  .sponsor-photo {
@@ -144,6 +160,14 @@ font-family: Inter !important;
         
         color: white;    
     }
+    .frc-content {
+        margin: 0 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+        color: white;    
+    }
+
 
     .buttons {
         margin: 1% 0%;
@@ -152,3 +176,18 @@ font-family: Inter !important;
 
  }
 
+ .frc {
+    background-color: #41C9E2;
+ }
+
+ .frc-content {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 5%;
+    color: black;
+ }
+
+.frc-content a {
+    color: black;
+}
