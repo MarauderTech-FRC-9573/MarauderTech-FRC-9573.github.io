@@ -102,6 +102,17 @@ h1 a:hover {
     width: 20%;
  }
 
+
+ .frc-content {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 5%;
+    color: black;
+ }
+
+
+
 @media screen and (max-width: 800px) {
     .main {
         margin: 1%;
@@ -141,7 +152,7 @@ h1 a:hover {
         padding-top: 2%;
         padding-bottom: 2%;
         
-        color: white;    
+        color: black;
     }
 
     .sponsors-content {
@@ -149,7 +160,7 @@ h1 a:hover {
         padding-top: 2%;
         padding-bottom: 2%;
         
-        color: white;    
+        color: black;    
 
     }
 
@@ -165,7 +176,7 @@ h1 a:hover {
         padding-top: 2%;
         padding-bottom: 2%;
         
-        color: white;    
+        color: black;    
     }
 
 
@@ -179,15 +190,6 @@ h1 a:hover {
  .frc {
     background-color: #41C9E2;
  }
-
- .frc-content {
-    color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin: 0 5%;
-    color: black;
- }
-
 .frc-content a {
     color: black;
 }
