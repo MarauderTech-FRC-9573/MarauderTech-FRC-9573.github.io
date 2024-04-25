@@ -1,0 +1,40 @@
+body {
+    font-family: Inter !important;
+}
+
+.main {
+    margin: 3%;
+}
+
+.buttons {
+    margin: 3% 0%;
+}
+
+nav a {
+    color: black;
+}
+
+.fa-brands, .fa-solid {
+    color: black;
+    font-size: 2.5em;
+    margin: 10px;;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    color: #0C356A;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .main {
+        margin: 2%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        margin: 1%;
+    }
+}
