@@ -122,6 +122,11 @@ h1 a:hover {
 
 .frc-content a {
     color: black;
+    text-decoration: underline;
+}
+
+.frc-content .btn {
+    text-decoration: none;
 }
 
 .content {
