@@ -1,5 +1,5 @@
 body {
-font-family: Inter !important;
+    font-family: Inter !important;
 }
 
 .main {
@@ -32,6 +32,11 @@ nav a {
 }
 
 
+.pbo {
+    width: 50%;
+}
+
+
 .announcement {
     text-align: center;  
     margin: 2%;
@@ -54,9 +59,6 @@ nav a {
     margin: 3% 0%;
 }
 
-h1 a {
-    color: white; 
-}
 
 h1 a:hover {
     color: white;
@@ -70,12 +72,7 @@ h1 a:hover {
     margin: 10px;;
 }
 
-.fa-brands:hover, .fa-solid:hover {
-    color: #0C356A;
-    cursor: pointer;
-}
-
-.btn {
+/* .btn {
     background-color: #FFFFFF !important;
     color: white;
     border: none;
@@ -86,39 +83,39 @@ h1 a:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
+} */
 
 .sponsors {
     background-color: #ACE2E1;
+    
+}
 
- }
-
- .sponsors-content {
+.sponsors-content {
     margin: 0 5%;
     padding-top: 2%;
     padding-bottom: 2%;
     
     color: black;
- }
+}
 
 
 .carousel {
     width: 60%;
 }
- .sponsor-title {
+.sponsor-title {
     margin-top: 2%
- }
+}
 
- .frc {
+.frc {
     background-color: #41C9E2;
- }
+}
 
- .frc-content {
+.frc-content {
     padding-top: 5%;
     padding-bottom: 5%;
     margin: 0 5%;
     color: black;
- }
+}
 
 .frc-content a {
     color: black;
@@ -138,18 +135,18 @@ h1 a:hover {
         margin: 1%;
     }
     .carousel {
-       width: 100%;
+        width: 100%;
     }
-
+    
     .announcement {
         font-size: 80%;
     }
-
+    
     .announcement p {
         width: 70%;
         margin: auto;
     }
-
+    
     .main {
         text-align: center;
         width: 70%;
@@ -158,12 +155,17 @@ h1 a:hover {
     }
     .sponsor-photo {
         width: 80%;
-     }
+    }
+    
+    .pbo {
+        width: 100%;
+    }
+    
+    
+    
+}
 
-
- }
-
- @media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .main {
         margin: 2%;
     }
@@ -175,16 +177,16 @@ h1 a:hover {
         
         color: black;
     }
-
+    
     .sponsors-content {
         margin: 0 2%;
         padding-top: 2%;
         padding-bottom: 2%;
         
         color: black;    
-
+        
     }
-
+    
     .involved-content {
         margin: 0 2%;
         padding-top: 2%;
@@ -199,17 +201,18 @@ h1 a:hover {
         padding-bottom: 2%;
         color: black;
     }
-
-
+    
+    
     .buttons {
         margin: 1% 0%;
     }    
-
+    
     .season-text {
         width: 50%;
     }
-
- }
+    
+    
+}
 
 .frc {
     background-color: #41C9E2;
@@ -221,24 +224,42 @@ h1 a:hover {
 
 .involved-content a {
     color: white;
-
+    
 }
 
 .involved-content a:hover {
     color: white;
-
+    
 }
 
 .involved-content .btn {
     color: black;
-
+    
 }
 
 .involved-content a:hover {
     color: black;
+    
+}
+
+.crescendo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/sdr-team.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 
 }
 
-.btn { 
-    color: black !important;
+.involved {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/fair-team.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.jumbo {
+    background-color: white !important;
 }
