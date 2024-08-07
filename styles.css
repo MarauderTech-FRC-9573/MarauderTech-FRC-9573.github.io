@@ -2,6 +2,32 @@ body {
     font-family: Inter !important;
 }
 
+.img_responsive {
+    width: 10% !important;
+}
+
+@media (max-width: 1200px) {
+    .img_responsive {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .img_responsive {
+        width: 50% !important;
+    }    
+}
+
+@media (max-width: 768px) {
+    .img_responsive {
+        width: 50% !important;
+    }
+        
+}
+
+
+
+
 .main {
     margin: 3%;
 }
@@ -73,16 +99,16 @@ h1 a:hover {
 }
 
 /* .btn {
-    background-color: #FFFFFF !important;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+background-color: #FFFFFF !important;
+color: white;
+border: none;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
 } */
 
 .sponsors {
@@ -248,7 +274,7 @@ h1 a:hover {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-
+    
 }
 
 .involved {
@@ -257,9 +283,14 @@ h1 a:hover {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-
+    
 }
 
 .jumbo {
     background-color: white !important;
 }
+
+.content {
+    margin: 3% 0%;
+}
+
