@@ -1,9 +1,13 @@
-body {
-    font-family: Inter !important;
-}
+
+
+
 
 .main {
     margin: 3%;
+}
+
+.container {
+    font-family: Inter;
 }
 
 .buttons {
@@ -14,13 +18,13 @@ nav a {
     color: black;
 }
 
-.fa-brands, .fa-solid {
-    color: black;
+.icon {
     font-size: 2.5em;
-    margin: 10px;;
+    color: black;
+    margin: 10px;
 }
 
-.fa-brands:hover, .fa-solid:hover {
+.icon:hover {
     color: #0C356A;
     cursor: pointer;
 }
