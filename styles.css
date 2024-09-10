@@ -10,12 +10,17 @@ body {
     .img_responsive {
         width: 25% !important;
     }
+    
 }
 
 @media (max-width: 992px) {
     .img_responsive {
         width: 50% !important;
     }    
+
+    .feature {
+        margin: 1% 0%;
+    }
 }
 
 @media (max-width: 768px) {
