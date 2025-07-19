@@ -282,6 +282,15 @@ cursor: pointer;
     
 }
 
+.reefscape {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/crescendo.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
 .involved {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/fair-team.jpeg");
     background-size: cover;
@@ -291,11 +300,40 @@ cursor: pointer;
     
 }
 
+.yearbook {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/yearbook.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 .jumbo {
     background-color: white !important;
 }
 
 .content {
     margin: 3% 0%;
+}
+
+
+
+.jumbo-btn {
+    background-color: #41C9E2 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.jumbo-btn:hover {
+    background-color: #008DDA !important;
+    color: white !important;
+}
+
+.icon {
+    color: black;
+}
+
+.icon:hover {
+    color: #41C9E2;
 }
 
